@@ -30,7 +30,7 @@ def connection(database):
 
 def get_credentials():
     # Change the location of your password
-    credential_location = r'''C:\Users\jtf\OneDrive - Netcompany\Documents\nonprod_credentials.txt'''
+    credential_location = r'''C:\Source\nonprod_credentials.txt'''
     f = open(credential_location, "r")
     credentials = f.read()
     lines = credentials.split('\n')
